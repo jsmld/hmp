@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  hymn_number: MyString
+  count: 1
+
+two:
+  hymn_number: MyString
+  count: 1
