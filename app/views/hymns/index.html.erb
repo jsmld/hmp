@@ -1,2 +1,8 @@
-<h1>Hymns#index</h1>
-<p>Find me in app/views/hymns/index.html.erb</p>
+<h1>Hymns</h1>
+<ul>
+  <% @hymns.each do |hymn| %>
+    <li>
+      <%= hymn.hymn_number%> - <%= hymn.count%>
+    </li>
+  <% end %>
+</ul>
